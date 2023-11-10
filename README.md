@@ -53,4 +53,4 @@ Danik Lafrance
 
 ## References
 
-Dataset created by the United States Geological SurveyLinks to an external site..
+Dataset created by the United States Geological Survey.
