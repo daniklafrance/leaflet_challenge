@@ -68,5 +68,5 @@ function createMap(earthquakes) {
     zoom: 2,
     layers: [street, earthquakes]
   }).addTo(myMap);
-  
+
 };
