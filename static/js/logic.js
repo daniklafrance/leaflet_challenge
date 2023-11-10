@@ -10,7 +10,7 @@ d3.json(url).then(function (data) {
 //function for marker size based on earthquake magnitude
 function marker(magnitude) {
     return magnitude * 5;
-}
+};
 
 //function for marker color based on earthquake depth
 function markerStyle(depth) {
@@ -67,7 +67,6 @@ function createMap(earthquakes) {
     ],
     zoom: 2,
     layers: [street, earthquakes]
-  });
-
-    street.addTo(myMap)
+  }).addTo(myMap);
+  
 };
